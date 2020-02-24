@@ -1,0 +1,27 @@
+{
+  "name": "sena-dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "get-powercycle": "git clone https://github.com/sarimarton/powercycle.git packages/powercycle | exit 0",
+    "get-tmdb-ui": "git clone https://github.com/sarimarton/tmdb-ui-powercycle.git packages/tmdb-ui-powercycle | exit 0",
+    "get-showcase": "git clone https://github.com/sarimarton/powercycle-showcase.git packages/powercycle-showcase | exit 0",
+    "postinstall": "npm run get-powercycle && npm run get-tmdb-ui && npm run get-showcase && lerna bootstrap | exit 0",
+    "start": "lerna link && npm start"
+  },
+  "keywords": [],
+  "author": "Marton Sari <sarimarton@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@cycle/isolate": "^5.2.0",
+    "@cycle/react": "^2.6.0",
+    "@cycle/react-dom": "^2.3.0",
+    "@cycle/state": "^1.4.0",
+    "@types/react": "^16.9.22",
+    "lerna": "^3.20.2",
+    "react": "^16.12.0",
+    "xstream": "^11.11.0"
+  }
+}
