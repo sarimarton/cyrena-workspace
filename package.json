@@ -6,9 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "get-cyrena": "git clone https://github.com/sarimarton/cyrena.git packages/cyrena | exit 0",
-    "get-tmdb-ui": "git clone https://github.com/sarimarton/tmdb-ui-powercycle.git packages/tmdb-ui-powercycle | exit 0",
-    "get-showcase": "git clone https://github.com/sarimarton/powercycle-showcase.git packages/powercycle-showcase | exit 0",
-    "postinstall": "npm run get-powercycle && npm run get-tmdb-ui && npm run get-showcase && lerna bootstrap | exit 0",
+    "get-tmdb-ui": "git clone https://github.com/sarimarton/tmdb-ui-cyrena.git packages/tmdb-ui-cyrena | exit 0",
+    "get-showcase": "git clone https://github.com/sarimarton/cyrena-showcase.git packages/cyrena-showcase | exit 0",
+    "postinstall": "npm run get-cyrena && npm run get-tmdb-ui && npm run get-showcase && lerna bootstrap | exit 0",
     "start": "lerna link && lerna run --parallel start"
   },
   "keywords": [],
