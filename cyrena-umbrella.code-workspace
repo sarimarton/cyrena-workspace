@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "packages/cyrena"
+		},
+		{
+			"path": "packages/cyrena-showcase"
+		},
+		{
+			"path": "packages/tic-tac-toe-cyrena"
+		},
+		{
+			"path": "packages/tmdb-ui-cyrena"
+		}
+	],
+	"settings": {}
+}

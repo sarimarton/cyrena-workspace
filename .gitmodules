@@ -1,0 +1,12 @@
+[submodule "cyrena"]
+path = packages/cyrena
+url = git+https://github.com/sarimarton/cyrena.git
+[submodule "cyrena-showcase"]
+path = packages/cyrena-showcase
+url = git+https://github.com/sarimarton/cyrena-showcase.git
+[submodule "tic-tac-toe-cyrena"]
+path = packages/tic-tac-toe-cyrena
+url = git+https://github.com/sarimarton/tic-tac-toe-cyrena.git
+[submodule "tmdb-ui-cyrena"]
+path = packages/tmdb-ui-cyrena
+url = git+https://github.com/sarimarton/tmdb-ui-cyrena.git
