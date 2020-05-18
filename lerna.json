@@ -1,6 +1,7 @@
 {
   "packages": [
-    "packages/*"
+    "packages/*",
+    "packages/cyrena/packages/cyrena-docs"
   ],
   "version": "independent"
 }
