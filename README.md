@@ -1,2 +1,3 @@
- cyrena-umbrella
-Lerna repo for developing powercycle with example apps
+# cyrena-workspace
+
+Workspace repository for developing Cyrena with example apps
