@@ -17,9 +17,12 @@
   "author": "Marton Sari <sarimarton@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "@types/react": "^16.9.22",
-    "@types/react-redux": "^7.1.7",
-    "lerna": "^3.20.2",
-    "typescript": "^3.9.3"
+    "@types/react": "^17.0.2",
+    "@types/react-redux": "^7.1.16",
+    "lerna": "^3.22.1",
+    "typescript": "^4.2.2"
+  },
+  "devDependencies": {
+    "npm-check-updates": "^11.1.9"
   }
 }
